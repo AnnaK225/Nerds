@@ -229,26 +229,26 @@ a {
    
 }
 .partners-list li:nth-child(3) a img:hover {
-  background-image:url(./img/logo-hover/logo-3\ 2.png);
+  background-image:url(../img/logo-hover/logo-3\ 2.png);
   background-repeat:no-repeat;
   
 }
 .partners-list li:nth-child(1) a img:hover {
-  background-image:url(./img/logo-hover/logo_htmlacademy\ 2.png);
+  background-image:url(../img/logo-hover/logo_htmlacademy\ 2.png);
   background-repeat:no-repeat;
   width: 199px;
   height: 57px;
   
 }
 .partners-list li:nth-child(2) a img:hover {
-  background-image:url(./img/logo-hover/logo-2\ 2.png);
+  background-image:url(../img/logo-hover/logo-2\ 2.png);
   background-repeat:no-repeat;
   width: 209px;
   height: 90px;
 
 }
 .partners-list li:nth-child(4) a img:hover {
-  background-image:url(./img/logo-hover/logo-4\ 2.png);
+  background-image:url(../img/logo-hover/logo-4\ 2.png);
   background-repeat:no-repeat;
   width: 173px;
   height: 84px;
