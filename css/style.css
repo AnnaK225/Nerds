@@ -10,10 +10,14 @@ body {
     list-style: none;
     box-sizing: border-box;
     text-decoration: none; 
+    /* min-width: 100%; */
+    max-width: 100%; 
+    height: 100%;
     
 }
 .container {
     margin-left: 140px;
+    /* width: 1170px; */
     max-width: 1170px;
    
 }
@@ -115,6 +119,11 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     text-align: left;
     padding-bottom: 80px;
+  
+}
+.advantages-list li {
+margin-right: 20px;
+  
 }
 .advantages-img {
     width: 300px;
@@ -220,17 +229,24 @@ a {
     order: 2;
       
 }
-                
+.partners  {
+    height: auto;
+   
+}              
 .partners-list {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    list-style: none; 
+    list-style: none;   
    
+}
+.partners-list-link {
    
 }
 .partners-list li:nth-child(3) a img:hover {
   background-image:url(../img/logo-hover/logo-3\ 2.png);
   background-repeat:no-repeat;
+  
+  
   
 }
 .partners-list li:nth-child(1) a img:hover {
@@ -238,7 +254,7 @@ a {
   background-repeat:no-repeat;
   width: 199px;
   height: 57px;
-  
+ 
 }
 .partners-list li:nth-child(2) a img:hover {
   background-image:url(../img/logo-hover/logo-2\ 2.png);
@@ -252,6 +268,7 @@ a {
   background-repeat:no-repeat;
   width: 173px;
   height: 84px;
+
 }
 
 .partners-list-link:active {
@@ -596,4 +613,64 @@ text-align: left;
     height: 450px; display: flex;
     padding-left: 40px;
   }
+  @media (max-width:986px) {
+    .advantages-list li { 
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .advantages-list {
+        display: flex;
+        flex-wrap:wrap;
+        text-align: center;
+    }
+    .main-header-navigation li {
+        margin-right: 20px;
+    }
+    .main-header {
+        display: flex;
+        flex-wrap: wrap;
+        text-align:center;
+  }
+  .main-header-logo img {
+    width: 100px;
+    height: 30px;
+  }
+    .header-cart {
+        margin-left: auto;
+        margin-right: auto 
+  }
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media (max-width:424px) {
+    .main-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+
+    }    .container {
+     margin-left: 50px;  
+    }
+    .services-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .services-wrap-left {
+        margin-left: 40px;
+    }
+    .services-wrap-right {
+        position: fixed;
+    }
+    .footer-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-wrap {
+        margin-left: 40px;
+    }
+}
   
